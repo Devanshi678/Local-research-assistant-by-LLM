@@ -101,6 +101,8 @@ FAISS index saved to folder: faiss_index
 
 This step only needs to be repeated if the dataset changes.
 
+---
+
 ### 4️⃣ Run the Research Assistant
 python run_research_assistant.py
 
@@ -109,7 +111,7 @@ A factual question
 A follow-up question using earlier context
 A summarization request
 
-📖 What I Learned from This Project 
+## 📖 What I Learned from This Project 
 - Transformers outperform RNNs/LSTMs in handling long-range dependencies due to self-attention.
 - Even powerful LLMs benefit significantly from retrieval, especially for domain-specific or long documents.
 - RAG systems reduce hallucinations by grounding answers in real text.
@@ -117,3 +119,4 @@ A summarization request
 - FAISS indexing and chunking strategies have a major impact on answer quality.
 - This project deepened my understanding of how attention + retrieval fundamentally changes how models access and reason over information.
 
+---
