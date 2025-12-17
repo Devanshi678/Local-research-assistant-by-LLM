@@ -57,6 +57,7 @@ Instead of sending data to external services, the assistant retrieves relevant i
 
 The text was cleaned and preprocessed to ensure high-quality embeddings and retrieval performance.
 Because the system is built using a Retrieval-Augmented Generation (RAG) pipeline, it does not rely on pre-trained knowledge alone. Instead, it answers questions only from the indexed document, making it domain-specific and grounded.
+
 ---
 
 ## 📁 Project Structure
